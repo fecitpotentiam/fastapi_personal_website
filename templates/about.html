@@ -1,0 +1,321 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Welcome to my personal website!</h2>
+<!--          <p>I want to show my pro</p>-->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="../static/assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>About me</h3>
+            <p class="font-italic">
+            </p>
+            <p>
+              I'm interested in artificial intelligence (knowledge representation and natural language processing),
+              have experience in data analysis for healthcare, developed intelligent medical systems. Also,
+              I have been working as a software developer since 2017 (chatbots, recommendation systems, web services)
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Yekaterinburg, Russia</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> M.S. IT</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+
+        </div>
+
+        <div class="porfolio-sections">
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-row">
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+
+              <h4><a href="/research">Research</a></h4>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+
+              <h4><a href="/experience">Education & Experience</a></h4>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+
+              <h4><a href="/honors_and_awards">Honors & Awards</a></h4>
+
+          </div>
+            </div>
+
+        </div>
+
+<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-app">-->
+<!--            <div class="portfolio-wrap">-->
+<!--              <img src="../static/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">-->
+<!--              <div class="portfolio-info">-->
+<!--                <h4>Research</h4>-->
+<!--                <p>Research</p>-->
+<!--                <div class="portfolio-links">-->
+<!--                  <a href="../static/assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>-->
+<!--                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--          <a href="/experience">-->
+<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
+<!--            <div class="portfolio-wrap">-->
+
+<!--              <img src="../static/assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">-->
+<!--              <div class="portfolio-info">-->
+<!--                <h4>Education & Experience</h4>-->
+<!--                <p>Education & Experience</p>-->
+<!--                <div class="portfolio-links">-->
+<!--                  <a href="../static/assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+<!--                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--            </div>-->
+<!--          </div>-->
+<!--            </a>-->
+
+<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-app">-->
+<!--            <div class="portfolio-wrap">-->
+<!--              <img src="../static/assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">-->
+<!--              <div class="portfolio-info">-->
+<!--                <h4>Honors & Awards</h4>-->
+<!--                <p>Honors & Awards</p>-->
+<!--                <div class="portfolio-links">-->
+<!--                  <a href="../static/assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>-->
+<!--                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-card">-->
+<!--            <div class="portfolio-wrap">-->
+<!--              <img src="../static/assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">-->
+<!--              <div class="portfolio-info">-->
+<!--                <h4>Card 2</h4>-->
+<!--                <p>Card</p>-->
+<!--                <div class="portfolio-links">-->
+<!--                  <a href="../static/assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>-->
+<!--                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
+<!--            <div class="portfolio-wrap">-->
+<!--              <img src="../static/assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">-->
+<!--              <div class="portfolio-info">-->
+<!--                <h4>Web 2</h4>-->
+<!--                <p>Web</p>-->
+<!--                <div class="portfolio-links">-->
+<!--                  <a href="../static/assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>-->
+<!--                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-app">-->
+<!--            <div class="portfolio-wrap">-->
+<!--              <img src="../static/assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">-->
+<!--              <div class="portfolio-info">-->
+<!--                <h4>App 3</h4>-->
+<!--                <p>App</p>-->
+<!--                <div class="portfolio-links">-->
+<!--                  <a href="../static/assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>-->
+<!--                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-card">-->
+<!--            <div class="portfolio-wrap">-->
+<!--              <img src="../static/assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">-->
+<!--              <div class="portfolio-info">-->
+<!--                <h4>Card 1</h4>-->
+<!--                <p>Card</p>-->
+<!--                <div class="portfolio-links">-->
+<!--                  <a href="../static/assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>-->
+<!--                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-card">-->
+<!--            <div class="portfolio-wrap">-->
+<!--              <img src="../static/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">-->
+<!--              <div class="portfolio-info">-->
+<!--                <h4>Card 3</h4>-->
+<!--                <p>Card</p>-->
+<!--                <div class="portfolio-links">-->
+<!--                  <a href="../static/assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>-->
+<!--                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
+<!--            <div class="portfolio-wrap">-->
+<!--              <img src="../static/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">-->
+<!--              <div class="portfolio-info">-->
+<!--                <h4>Web 3</h4>-->
+<!--                <p>Web</p>-->
+<!--                <div class="portfolio-links">-->
+<!--                  <a href="../static/assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>-->
+<!--                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+
+<!--    -->
+
+<!--  &lt;!&ndash; ======= Services Section ======= &ndash;&gt;-->
+<!--    <section id="services" class="services">-->
+<!--      <div class="container" data-aos="fade-up">-->
+
+<!--        <div class="section-title">-->
+<!--          <h2>Sections</h2>-->
+<!--        </div>-->
+
+<!--        <div class="row">-->
+<!--          <div class="col-lg-4 col-md-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">-->
+<!--              <h2><a href="">Research</a></h2>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">-->
+<!--              <h2><a href="">Education & Experience</a></h2>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">-->
+<!--              <h2><a href="">Honors & Awards</a></h2>-->
+<!--          </div>-->
+
+
+
+<!--        </div>-->
+
+<!--      </div>-->
+<!--    </section>&lt;!&ndash; End Services Section &ndash;&gt;-->
+
+
+
+
+
+
+<!--    &lt;!&ndash; ======= Testimonials Section ======= &ndash;&gt;-->
+<!--    <section id="testimonials" class="testimonials">-->
+<!--      <div class="container" data-aos="fade-up">-->
+
+<!--        <div class="section-title">-->
+<!--          <h2>Research Interests</h2>-->
+<!--        </div>-->
+
+<!--        <div class="owl-carousel testimonials-carousel">-->
+<!--          <div class="testimonial-item">-->
+<!--            <img src="../static/assets/img/interests/kp.jpg" class="testimonial-img" alt="">-->
+<!--            <h3>Knowledge Representation</h3>-->
+<!--          </div>-->
+
+<!--          <div class="testimonial-item">-->
+<!--            <img src="../static/assets/img/interests/nlp.jpg" class="testimonial-img" alt="">-->
+<!--            <h3>Natural Language Processing</h3>-->
+<!--          </div>-->
+<!--          <div class="testimonial-item">-->
+<!--            <img src="../static/assets/img/interests/med.png" class="testimonial-img" alt="">-->
+<!--            <h3>Health Informatics</h3>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--      </div>-->
+<!--    </section>&lt;!&ndash; End Testimonials Section &ndash;&gt;-->
+
+
+<!--    &lt;!&ndash; ======= Facts Section ======= &ndash;&gt;-->
+<!--    <section id="facts" class="facts">-->
+<!--      <div class="container" data-aos="fade-up">-->
+
+<!--        <div class="section-title">-->
+<!--          <h2>Facts</h2>-->
+<!--          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+<!--        </div>-->
+
+<!--        <div class="row counters">-->
+
+<!--          <div class="col-lg-3 col-6 text-center">-->
+<!--            <span data-toggle="counter-up">232</span>-->
+<!--            <p>Clients</p>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-3 col-6 text-center">-->
+<!--            <span data-toggle="counter-up">521</span>-->
+<!--            <p>Projects</p>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-3 col-6 text-center">-->
+<!--            <span data-toggle="counter-up">1,463</span>-->
+<!--            <p>Hours Of Support</p>-->
+<!--          </div>-->
+
+<!--          <div class="col-lg-3 col-6 text-center">-->
+<!--            <span data-toggle="counter-up">15</span>-->
+<!--            <p>Hard Workers</p>-->
+<!--          </div>-->
+
+<!--        </div>-->
+
+<!--      </div>-->
+<!--    </section>&lt;!&ndash; End Facts Section &ndash;&gt;-->
+
+
+  </main><!-- End #main -->
+{% endblock %}
